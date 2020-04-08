@@ -25,4 +25,18 @@ Check the Travis CI macOS Build Environment: [macOS Version page for updates](ht
 The last three lines specify the .xcodeproj file to run, the name of the scheme, and where you want Travis CI to run the project.
 In this case, we are using the iOS simulator, running iOS 12.2 on an iPhone 8. 
 
-Save .travis.yml, then commit and push your changes to GitHub
+Save .travis.yml, then commit and push your changes to GitHub. 
+
+Open Travis.ci and check the repo, click on the Build History and we will see the build is starting. 
+
+Travis is buils on Ruby. Thus, Ruby Version Manager runs the default Ruby version as following log lines 
+
+``` Ruby
+$ rvm use default
+$ ruby --version
+ruby 2.6.4p104 (2019-08-28 revision 67798) [x86_64-darwin18]
+$ rvm --version
+rvm 1.29.8 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+```
+
+Then Travis CI runs xcodebuild, and you see it compiling, linking and processing the files in Numero, including ConverterTests.swift. Then it links NumeroTests and copies iPhoneSimulator.platform:
