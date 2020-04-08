@@ -44,6 +44,7 @@
 		3052E8872010950800F6F30B /* GameDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDoneViewController.swift; sourceTree = "<group>"; };
 		3052E88920109EC900F6F30B /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
 		30833EE32014681A000488C0 /* Shuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shuffle.swift; sourceTree = "<group>"; };
+		4C541472243DA8C30032F629 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +105,7 @@
 			children = (
 				3052E86C201040F500F6F30B /* Info.plist */,
 				3052E88920109EC900F6F30B /* ConverterTests.swift */,
+				4C541472243DA8C30032F629 /* README.md */,
 			);
 			path = NumeroTests;
 			sourceTree = "<group>";
