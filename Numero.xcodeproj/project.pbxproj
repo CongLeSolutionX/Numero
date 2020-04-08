@@ -45,6 +45,7 @@
 		3052E88920109EC900F6F30B /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
 		30833EE32014681A000488C0 /* Shuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shuffle.swift; sourceTree = "<group>"; };
 		4C541472243DA8C30032F629 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4C541473243DBA4E0032F629 /* ci.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +69,7 @@
 		3052E849201040F500F6F30B = {
 			isa = PBXGroup;
 			children = (
+				4C541473243DBA4E0032F629 /* ci.sh */,
 				3052E854201040F500F6F30B /* Numero */,
 				3052E869201040F500F6F30B /* NumeroTests */,
 				3052E853201040F500F6F30B /* Products */,
