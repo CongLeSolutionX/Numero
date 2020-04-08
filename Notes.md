@@ -24,4 +24,5 @@ Also, we used some CI workflows on this project:
 2. [Travis CI](https://travis-ci.com)
 3. [Bitrise](https://app.bitrise.io)
 4. [Jerkins](https://jenkins.io/index.html)
+5. [FastLane](https://docs.fastlane.tools/actions/scan/)
 

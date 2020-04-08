@@ -38,5 +38,18 @@ ruby 2.6.4p104 (2019-08-28 revision 67798) [x86_64-darwin18]
 $ rvm --version
 rvm 1.29.8 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
 ```
+For further information, just follow the command on the log file on Travis. 
 
-Then Travis CI runs xcodebuild, and you see it compiling, linking and processing the files in Numero, including ConverterTests.swift. Then it links NumeroTests and copies iPhoneSimulator.platform:
+# Using Fastlan Scan 
+
+Open the travis.yml file and replace the content via the following commands: 
+
+```
+osx_image: xcode10.2
+language: swift
+script:
+- fastlane scan
+```
+Save .travis.yml, then commit and push your changes to GitHub. 
+
+Open Travis.ci and check the repo, click on the Build History and we will see the build is starting. 
