@@ -53,3 +53,30 @@ script:
 Save .travis.yml, then commit and push your changes to GitHub. 
 
 Open Travis.ci and check the repo, click on the Build History and we will see the build is starting. 
+
+
+# Using Jerkins 
+Follow the instruction on the Jerkins homepage [https://jenkins.io/doc/pipeline/tour/getting-started](https://jenkins.io/doc/pipeline/tour/getting-started)
+```zsh 
+# installing Jerkins Long term support on terminal 
+brew install jenkins-lts
+
+# Install a specific LTS version: 
+brew install jenkins-lts@YOUR_VERSION
+
+#Start the Jenkins service: 
+brew services start jenkins-lts
+```
+After starting the Jenkins service, browse to [http://localhost:8080](http://localhost:8080) 
+and follow the instructions to complete the installation
+
+Other useful command lines for Jerkins 
+```zsh
+#Restart the Jenkins service: 
+brew services restart jenkins-lts
+
+#Update the Jenkins version: 
+brew upgrade jenkins-lts
+```
+## Notifying Jenkins With GitHub Webhook via change the setting in Jerkin 
+
