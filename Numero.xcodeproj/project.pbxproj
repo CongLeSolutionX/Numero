@@ -17,6 +17,8 @@
 		3052E8882010950800F6F30B /* GameDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E8872010950800F6F30B /* GameDoneViewController.swift */; };
 		3052E88A20109EC900F6F30B /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E88920109EC900F6F30B /* ConverterTests.swift */; };
 		30833EE42014681A000488C0 /* Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30833EE32014681A000488C0 /* Shuffle.swift */; };
+		4C097BEC243E318400D6982C /* Notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 4C097BEB243E318400D6982C /* Notes.md */; };
+		4C097BEE243E49FB00D6982C /* ci.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4C541473243DBA4E0032F629 /* ci.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		3052E8872010950800F6F30B /* GameDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDoneViewController.swift; sourceTree = "<group>"; };
 		3052E88920109EC900F6F30B /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
 		30833EE32014681A000488C0 /* Shuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shuffle.swift; sourceTree = "<group>"; };
+		4C097BEB243E318400D6982C /* Notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Notes.md; sourceTree = "<group>"; };
+		4C097BED243E498A00D6982C /* Travis-Ci-integrating.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Travis-Ci-integrating.md"; sourceTree = "<group>"; };
 		4C541472243DA8C30032F629 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4C541473243DBA4E0032F629 /* ci.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,7 +73,7 @@
 		3052E849201040F500F6F30B = {
 			isa = PBXGroup;
 			children = (
-				4C541473243DBA4E0032F629 /* ci.sh */,
+				4C097BEB243E318400D6982C /* Notes.md */,
 				3052E854201040F500F6F30B /* Numero */,
 				3052E869201040F500F6F30B /* NumeroTests */,
 				3052E853201040F500F6F30B /* Products */,
@@ -105,9 +109,11 @@
 		3052E869201040F500F6F30B /* NumeroTests */ = {
 			isa = PBXGroup;
 			children = (
+				4C541472243DA8C30032F629 /* README.md */,
 				3052E86C201040F500F6F30B /* Info.plist */,
 				3052E88920109EC900F6F30B /* ConverterTests.swift */,
-				4C541472243DA8C30032F629 /* README.md */,
+				4C097BED243E498A00D6982C /* Travis-Ci-integrating.md */,
+				4C541473243DBA4E0032F629 /* ci.sh */,
 			);
 			path = NumeroTests;
 			sourceTree = "<group>";
@@ -197,6 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C097BEC243E318400D6982C /* Notes.md in Resources */,
 				18B65CBE20C09F3300BFC903 /* LaunchScreen.storyboard in Resources */,
 				3052E85D201040F500F6F30B /* Assets.xcassets in Resources */,
 				3052E85B201040F500F6F30B /* Main.storyboard in Resources */,
@@ -207,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C097BEE243E49FB00D6982C /* ci.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

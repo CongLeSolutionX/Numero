@@ -1,3 +1,4 @@
+# This Shell script is used for Jerkins CI 
 #!/bin/bash
 set -e
 xcodebuild -project 'Numero.xcodeproj' -scheme 'Numero' -destination 'platform=iOS Simulator,name=iPhone 8' test | xcpretty
